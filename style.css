@@ -1,0 +1,98 @@
+/* for the first image */
+
+table {
+    border-spacing: 10px;
+}
+
+table tr td {
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px #696969;
+}
+
+/* for the second image */
+
+.outside {
+    background-color: rgb(255,255,241);
+    border-right: 3px solid black;
+    width: 650px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+}
+
+.squir {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.squir div {
+    background-color: rgb(234,234,237);
+    width: 190px;
+    height: 68%;
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+div#scroll {
+    font-weight: bold;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    top: 35%;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    background-color: rgb(255,255,241);
+    position: absolute;
+    top: 15%;
+}
+
+#three {
+    height: 160px;
+}
+
+#outscroll {
+    background-color: rgb(255,255,241);
+    width: 100%;
+    height: 85px;
+    top: 38%;
+    position: absolute;
+}
+
+/* for the third image */
+#special {
+    color: blue;
+}
+
+#special ul {
+    list-style-type: none;
+}
+
+ul a {
+    color: red;
+}
+
+.orange-underline {
+    color: orange;
+    text-decoration: underline;
+}
+
+.font-wight{
+    font-weight: bold;
+}
+
+p span {
+    color:blue;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+hr {
+    width: 50%;
+    margin: 1px;
+}
