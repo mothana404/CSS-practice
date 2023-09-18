@@ -1,0 +1,33 @@
+#special {
+    color: blue;
+}
+
+#special ul {
+    list-style-type: none;
+}
+
+ul a {
+    color: red;
+}
+
+.orange-underline {
+    color: orange;
+    text-decoration: underline;
+}
+
+.font-wight{
+    font-weight: bold;
+}
+
+p span {
+    color:blue;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+hr {
+    width: 50%;
+    margin: 1px;
+}
